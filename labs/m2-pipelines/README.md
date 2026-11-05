@@ -1852,14 +1852,6 @@ fusionnez, puis vous revenez sur `main` : `git switch main && git pull`.
   [Airflow — Docker Compose](https://airflow.apache.org/docs/apache-airflow/stable/howto/docker-compose/index.html),
   [KubernetesPodOperator](https://airflow.apache.org/docs/apache-airflow-providers-cncf-kubernetes/stable/operators.html).
 
-> [!NOTE]
-> **Prochaine étape**
-> Module 3 — Validation des données et des modèles. Vous remplacerez les contrôles simples de
-> `src/validate_data.py` par une suite Great Expectations (même interface, même gate dans le
-> pipeline), puis vous ajouterez une détection de drift et des tests du modèle (Evidently et
-> tests comportementaux) comme nouveaux steps de `scoring-pipeline`. Nouvelle étape = nouvelle
-> version de l'image.
-
 ## Vérification automatique
 
 Depuis la racine du repo, port-forwards actifs (`make pf`) :
